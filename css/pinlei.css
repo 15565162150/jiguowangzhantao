@@ -1,0 +1,40 @@
+.fxkw{
+	padding-bottom: 25px;
+}
+.fxkw>div{
+	width: 1080px;
+	margin: 25px auto;
+	background: white;
+	border: 1px solid #EEEEEE;
+	border-radius: 5px;
+}
+.fxkw>div>h6{
+	font-size: 18px;
+	padding-left: 15px;
+	margin:15px 0 ;
+	font-weight: 500;
+	border-left: 5px solid #F85443;
+}
+.fxkw>div>div{
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 15px;
+}
+.fxkw>div>div>div{
+	width: 10%;
+	margin-left: 5%;
+	text-align: center;
+	margin-top: 15px;
+	font-size: 12px;
+	color: #BCB9B7;
+}
+.fxkw>div>.sec>div p{
+	margin-top: 10px;
+}
+.fxkw>div>.sec>div img{
+	width: 90%;
+}
+.fxkw>div>.sec-bot{
+	border-top: 1px dashed #BCB9B7;
+	padding-bottom: 30px;
+}

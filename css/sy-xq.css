@@ -1,0 +1,157 @@
+.sylc{
+	width: 100%;
+	background: #F0F0F0;
+}
+.sylc-s{
+	width: 1080px;
+	margin: auto;
+	padding: 10px 0;
+}
+.sylc-s:after{
+	display: block;
+	content: "";
+	clear: both;
+	visibility: hidden;
+}
+.sylc-s>h3{
+	font-weight: 500;
+	border-left: 5px solid #FE523F;
+	padding-left: 10px;
+	float: left;
+}
+.sylc-s1{
+	margin-left: 150px;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	font-size: 12px;
+}
+.sylc-s1>.active{
+	border-bottom: 2px solid #FE523F;
+}
+.sylc-s1 img{
+	width: 30px;
+	height: 30px;
+}
+.sec-sec{
+	width: 1080px;
+	margin: 10px auto;
+}
+.sec-sec:after{
+	display: block;
+	content: "";
+	clear: both;
+	visibility: hidden;
+}
+.sec-sec>.sec-le{
+	width: 70%;
+	float: left;
+}
+.sec-sec>.sec-ri{
+	float: right;
+	width: 25%;
+	margin-left: 5%;
+}
+.sec-sec>.sec-ri>h3{
+	border-left: 5px solid #FE523F;
+	padding-left: 15px;
+	font-weight: 500;
+	font-size: 15px;
+	margin: 20px 0 0 0;
+}
+.sec-sec>.sec-ri>.price{
+	color: #F8544A;
+	font-size: 25px;
+	margin: 15px 0;
+}
+.sec-sec>.sec-ri>.dj{
+	width: 100%;
+	padding: 8px 0;
+	text-align: center;
+	background: #FE5341;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.sec-sec>.sec-ri>.p1{
+	font-size: 12px;
+	line-height: 25px;
+	color: #BCBEC0;
+	text-align: center;
+}
+.sec-sec>.sec-ri> img{
+	width: 100%;
+	margin-top: 15px;
+}
+.sec-sec>.sec-ri>.p2{
+	color: #ACB6BD;
+}
+.sec-sec>.sec-ri>h4{
+	font-size: 14px;
+	line-height: 35px;
+}
+.sec-sec>.sec-le>h3{
+	border-left: 5px solid #FE523F;
+	padding-left: 10px;
+	font-weight: 500;
+	font-size: 16px;
+	margin: 20px 0;
+}
+.sec-sec>.sec-le>.active{
+	color: #FE0D00;
+	font-weight: 800;
+	line-height:50px ;
+}
+.sec-sec>.sec-le>img{
+	margin: 20px 0;
+}
+.sec-sec>.sec-le>.pp1{
+	line-height: 50px;
+	color: #3982B6;
+	font-weight: 800;
+}
+.sec-sec>.sec-le>.pp2{
+	line-height: 50px;
+	color: #4A8EB4;
+	font-weight: 500;
+}
+.sec-sec>.sec-le>h4{
+	color: #E45311;
+	line-height: 20px;
+}
+.sec-sec>.sec-le>p>span{
+	font-weight: 800;
+}
+.sec-sec>.sec-le>.bg-img{
+	width: 100%;
+	height: 370px;
+	position: relative;
+}
+.sec-sec>.sec-le>.bg-img>img{
+	width: 100%;
+	height: 100%;
+}
+.sec-sec>.sec-le>.bg-img>div{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 15px 0;
+	background: rgba(255,255,255,.9);
+}
+.sec-sec>.sec-le>.bg-img>div>p{
+	width: 95%;
+	margin: auto;
+}
+.sec-sec>.sec-le>.bg-img>div>p:nth-child(1){
+	margin-bottom: 10px;
+}
+.sec-sec>.sec-le>.bg-bot{
+	margin: 10px 0;
+	border: 1px solid #B1B5B9;
+	padding: 10px 0;
+	border-radius: 5px;
+	color: #B1B5B9;
+	text-align: center;
+	font-size: 14px;
+}

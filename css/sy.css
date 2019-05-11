@@ -1,0 +1,21 @@
+.rm-sec1{
+	float: none;
+	margin: 25px auto;
+}
+.fxkw-navs{
+	text-align: center;
+	border-top: 1px solid #F2F2F2;
+}
+.fxkw-navs a{
+	display: inline-block;
+	width: 150px;
+	color: #B0B4AA;
+	line-height: 50px;
+}
+.fxkw-navs .act{
+	color: black;
+}
+.rm-sec1s{
+	height: 0;
+	overflow: hidden;
+}
